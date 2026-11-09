@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviso de Privacidad y Términos de Uso - Alerta Vial</title>
+    <style>
+        :root {
+            --primary-color: #0284c7;
+            --text-color: #334155;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+            --accent-color: #e11d48;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border-color);
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .logo-placeholder {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header h1 {
+            color: #0f172a;
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        nav a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            transition: background-color 0.2s;
+        }
+
+        nav a:hover {
+            background-color: #f1f5f9;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 0.75rem;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        section h2 {
+            color: #0f172a;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            color: #1e293b;
+            font-size: 1.1rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+
+        ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .meta-info {
+            background-color: #f1f5f9;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .alert-box {
+            background-color: #fff1f2;
+            border-left: 4px solid var(--accent-color);
+            padding: 1rem;
+            border-radius: 0 0.5rem 0.5rem 0;
+            margin-bottom: 1rem;
+            color: #9f1239;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: #64748b;
+            font-size: 0.875rem;
+            border-top: 1px solid var(--border-color);
+            background-color: var(--card-bg);
+            margin-top: 4rem;
+        }
+
+        @media (max-width: 600px) {
+            section {
+                padding: 1.25rem;
+            }
+            nav {
+                flex-direction: column;
+                gap: 0.5rem;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-placeholder">🚨</div>
+        <h1>Alerta Vial</h1>
+        <nav>
+            <a href="#privacidad">Aviso de Privacidad</a>
+            <a href="#terminos">Términos de Uso</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- SECCIÓN: AVISO DE PRIVACIDAD -->
+        <section id="privacidad">
+            <h2>Aviso de Privacidad</h2>
+            
+            <div class="meta-info">
+                <p><strong>Responsable:</strong> XndrDevs</p>
+                <p><strong>Contacto:</strong> iscavl96@gmail.com</p>
+                <p><strong>Última actualización:</strong> 08 de Noviembre del 2026</p>
+            </div>
+
+            <h3>Qué datos tratamos y para qué</h3>
+            <ul>
+                <li><strong>Ubicación precisa del dispositivo:</strong> para marcar el lugar de tus reportes, mostrarte reportes cercanos y avisarte (incluso por voz). No la guardamos de forma continua. Guardamos solo la ubicación de cada reporte que publicas y, si activas los avisos, una zona aproximada (~1 km) para enviarte notificaciones.</li>
+                <li><strong>Cuenta (opcional):</strong> si entras con Google, recibimos tu nombre, correo y foto de perfil. Si entras como invitado, se crea un identificador anónimo sin datos personales.</li>
+                <li><strong>Reportes:</strong> tipo, descripción, ubicación, fecha y, si los adjuntas, fotos (se les eliminan los metadatos). Los reportes son públicos para otros usuarios. No guardamos qué cuenta publicó cada reporte; si eliges "anónimo", se muestra como "Anónimo"; si no, se muestra el nombre de tu cuenta de Google.</li>
+                <li><strong>Votos, denuncias y límites de uso:</strong> para evitar abusos (un voto por persona, máximo de reportes por hora).</li>
+                <li><strong>Identificador del dispositivo para notificaciones:</strong> lo procesa OneSignal para enviarte notificaciones push.</li>
+            </ul>
+
+            <h3>Con quién se comparte</h3>
+            <p>Supabase (alojamiento de la base de datos y archivos) y OneSignal (envío de notificaciones), como proveedores que procesan datos por nuestra cuenta.</p>
+            <p>Google (inicio de sesión). Los servicios de mapas (OpenStreetMap) y búsqueda de lugares reciben las consultas necesarias para funcionar.</p>
+            <p><strong>No vendemos tus datos ni los usamos para publicidad.</strong></p>
+
+            <h3>Cuánto tiempo se conservan</h3>
+            <p>Los reportes caducan automáticamente (entre horas y 30 días según el tipo) y se eliminan poco después. Tu zona de avisos se borra al cerrar sesión o eliminar tu cuenta. Las fotos se eliminan cuando el reporte deja de estar vigente.</p>
+
+            <h3>Tus derechos y eliminar tu cuenta</h3>
+            <p>Puedes eliminar tu cuenta y los datos asociados desde la app: toca tu foto de perfil &rarr; Eliminar mi cuenta. También puedes pedirlo escribiendo a <a href="mailto:[TU CORREO]">[TU CORREO]</a> desde el correo de tu cuenta, y responderemos en un máximo de [30] días. Los reportes ya publicados no están vinculados a tu cuenta y desaparecen al caducar; si quieres que se retire uno antes, escríbenos con la hora y el lugar. Puedes ejercer tus derechos de acceso, rectificación, cancelación y oposición escribiendo al correo de contacto.</p>
+
+            <h3>Menores</h3>
+            <p>La app está dirigida a mayores de 18 años.</p>
+
+            <h3>Cambios</h3>
+            <p>Publicaremos aquí cualquier cambio a este aviso.</p>
+        </section>
+
+        <!-- SECCIÓN: TÉRMINOS DE USO -->
+        <section id="terminos">
+            <h2>Términos de Uso</h2>
+
+            <div class="alert-box">
+                <strong>Atención:</strong> Qué es Alerta Vial: una plataforma comunitaria donde los usuarios publican avisos. No es una app oficial ni de gobierno y no sustituye a los servicios de emergencia. Ante peligro inmediato contacta a los servicios de emergencia.
+            </div>
+
+            <p>La información puede ser inexacta. Los reportes los escriben otras personas; no garantizamos que sean verdaderos, completos o actuales. Úsalos bajo tu propio criterio y no dejes de prestar atención al camino. <strong>No uses el teléfono mientras conduces.</strong></p>
+
+            <h3>Tu contenido</h3>
+            <p>Eres responsable de lo que publicas. Está prohibido publicar contenido falso, ofensivo, ilegal, que revele datos personales de terceros (rostros, placas, domicilios), acosar, o hacer spam.</p>
+
+            <h3>Moderación</h3>
+            <p>Podemos ocultar o eliminar contenido y bloquear el acceso a quien incumpla estos términos. Los usuarios pueden denunciar contenido desde la app.</p>
+
+            <h3>Disponibilidad</h3>
+            <p>El servicio se ofrece "tal cual", gratuito y sin garantía de disponibilidad.</p>
+
+            <h3>Limitación de responsabilidad</h3>
+            <p>En la medida permitida por la ley, no nos hacemos responsables de daños derivados del uso de la información publicada.</p>
+
+            <h3>Contacto</h3>
+            <p>Si tienes dudas sobre estos términos, escríbenos a: <a href="mailto:iscavl96@gmail.com">iscavl96@gmail.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kuidat. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
